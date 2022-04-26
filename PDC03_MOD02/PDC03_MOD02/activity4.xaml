@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD02.activity4">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height ="Auto"/>
+                    <RowDefinition Height ="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Sample"/>
+                <Label Text="TestGrid"
+                       Grid.Row="0" Grid.Column="1"/>
+                <Label Text="TestGridRow2"
+                       Grid.Row="1" Grid.Column="0"/>
+                <Label Text="TestGridRow2"
+                       Grid.Row="1" Grid.Column="1"/>
+                <Label Text="TestGridRow3"
+                       Grid.Row="2" Grid.Column="0"/>
+                <Label Text="TestGridRow3"
+                       Grid.Row="2" Grid.Column="1"/>
+
+
+
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
